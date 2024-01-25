@@ -1,2 +1,5 @@
 READ ME
 Making a small project in java to test out the language! + Practice Vim
+Functionality
+INPUT: 2 float point numbers can be entered separated by a algebraic expression
+OUTPUT: 1 float point number
