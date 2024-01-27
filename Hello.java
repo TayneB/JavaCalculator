@@ -14,6 +14,12 @@ class Hello
 
       boolean t = true;
 
-      System.out.println(result);
+      int numbin = 0b101;
+
+      int numhex = 0x1f;
+
+      int numdiff = 1_000_000;
+
+      System.out.println(numdiff);
     }
 }
