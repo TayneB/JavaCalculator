@@ -48,6 +48,11 @@ class Hello
 
       int goober = numero++;
 
-      System.out.println(goober);
+      int x = 6;
+      int y = 4;
+
+      boolean result5 = x < y;
+
+      System.out.println(result5);
     }
 }
