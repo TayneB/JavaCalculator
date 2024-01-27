@@ -20,6 +20,8 @@ class Hello
 
       int numdiff = 1_000_000;
 
-      System.out.println(numdiff);
+      g++;
+
+      System.out.println(g);
     }
 }
