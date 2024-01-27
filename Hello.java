@@ -22,6 +22,21 @@ class Hello
 
       g++;
 
-      System.out.println(g);
+      byte bt = 127;
+
+      int btin = 257;
+
+      byte k = (byte)btin;
+
+      float f = 5.66f;
+
+      int i = (int)f;
+
+      byte op = 10;
+      byte op2 = 30;
+
+      int result2 = op + op2;
+
+      System.out.println(result2);
     }
 }
