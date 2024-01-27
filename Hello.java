@@ -37,6 +37,17 @@ class Hello
 
       int result2 = op + op2;
 
-      System.out.println(result2);
+      int numnum = 7;
+      int numnum2 = 5;
+
+      int result3 = numnum % numnum2;
+
+      numnum++;
+
+      int numero = 5;
+
+      int goober = numero++;
+
+      System.out.println(goober);
     }
 }
