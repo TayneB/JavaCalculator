@@ -1,18 +1,12 @@
 public class Hello {
   public static void main(String a[]) {
 
-    int i = 1;
+    int i = 6;
       
-    while(i < 4){
+    do
+    {
       System.out.println("Hi " + i);
-      int j = 1;
-      while(j<=3) {
-      System.out.println("Hello World");
-      j++;
-      }
       i++;
-    }
-
-    System.out.println("bye " + i);
+    }while(i < 4);
   }
 }
