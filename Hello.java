@@ -24,6 +24,9 @@ public class Hello {
           case 7:
               System.out.println("Sunday");
               break;
+          default:  
+              System.out.println("Enter a valid day number");
+              break;
       }
   }
 }
