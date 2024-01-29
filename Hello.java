@@ -1,78 +1,29 @@
-class Hello 
-{ 
-  public static void main(String a[]) 
-    {
-      int num1 = 3;
-      byte num2 = 127;
-      short sh = 557;
-      long l = 578394;
+public class Hello {
+  public static void main(String a[]) {
+      int n = 1;
 
-      float result  = num1 + num2;
-      double b = 34.5;
-
-      char g = 'g';
-
-      boolean t = true;
-
-      int numbin = 0b101;
-
-      int numhex = 0x1f;
-
-      int numdiff = 1_000_000;
-
-      g++;
-
-      byte bt = 127;
-
-      int btin = 257;
-
-      byte k = (byte)btin;
-
-      float f = 5.66f;
-
-      int i = (int)f;
-
-      byte op = 10;
-      byte op2 = 30;
-
-      int result2 = op + op2;
-
-      int numnum = 7;
-      int numnum2 = 5;
-
-      int result3 = numnum % numnum2;
-
-      numnum++;
-
-      int numero = 5;
-
-      int goober = numero++;
-
-      int x = 6;
-      int y = 4;
-
-      boolean result5 = x < y;
-
-      boolean Greet = true;
-      int Hi = 10;
-      int Bye = 30;
-
-      if(Hi>=10 && Bye<40 && Greet==true) {
-      
+      switch (n) {
+          case 1:
+              System.out.println("Monday");
+              break;
+          case 2:
+              System.out.println("Tuesday");
+              break;
+          case 3:
+              System.out.println("Wednesday");
+              break;
+          case 4:
+              System.out.println("Thursday");
+              break;
+          case 5:
+              System.out.println("Friday");
+              break;
+          case 6:
+              System.out.println("Saturday");
+              break;
+          case 7:
+              System.out.println("Sunday");
+              break;
       }
-      else {}
-
-      int aNum = 4;
-      int result6 = 0;
-      
-      // if (aNum%2==0)
-      // result6 = 10;
-      // else
-      // result6 = 20;
-
-      result6 = aNum%2==0 ? 10 : 20;
-
-      System.out.println(result6);
-      
-    }
+  }
 }
