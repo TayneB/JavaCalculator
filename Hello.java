@@ -53,6 +53,26 @@ class Hello
 
       boolean result5 = x < y;
 
-      System.out.println(result5);
+      boolean Greet = true;
+      int Hi = 10;
+      int Bye = 30;
+
+      if(Hi>=10 && Bye<40 && Greet==true) {
+      
+      }
+      else {}
+
+      int aNum = 4;
+      int result6 = 0;
+      
+      // if (aNum%2==0)
+      // result6 = 10;
+      // else
+      // result6 = 20;
+
+      result6 = aNum%2==0 ? 10 : 20;
+
+      System.out.println(result6);
+      
     }
 }
