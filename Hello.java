@@ -1,12 +1,9 @@
 public class Hello {
   public static void main(String a[]) {
-
-    int i = 6;
       
-    do
+    for(int i = 0; i <= 4; i++)
     {
       System.out.println("Hi " + i);
-      i++;
-    }while(i < 4);
+    };
   }
 }
