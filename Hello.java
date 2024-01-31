@@ -1,14 +1,24 @@
+class Calculator 
+{
+  int a;
+  public int add() {
+    System.out.println("Addition");
+    return 0;
+  }
+}
+
 public class Hello {
   public static void main(String a[]) {
       
-    for(int i = 1; i <= 7; i++)
-    {
-      System.out.println("DAY " + i);
+    int num1=4;
+    int num2=5;
 
-      for(int j = 1; j <= 9; j++)
-      {
-        System.out.println("  " + (j + 8) + " - " + (j+9));
-      }
-    };
+    Calculator calc = new Calculator();
+
+    calc.add();
+
+    // int result=num1+num2;
+
+    // System.out.println(result);
   }
 }
