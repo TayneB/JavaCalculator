@@ -5,7 +5,12 @@ class Computer
   }
 
   public String getMeAPen(int cost) {
+    if(cost > 10) {
     return "Pen";
+  } else {
+    return "No Pen";
+  }
+  
   }
 }
 
