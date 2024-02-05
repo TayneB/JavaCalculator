@@ -5,8 +5,19 @@ public class Hello {
 
      for(int i=0;i<4;i++) {
       for(int j=0;j<5;j++) {
+        num[i][j] = (int)(Math.random()*10);
         System.out.print(num[i][j] + " ");
       }
       System.out.println();
      }
-}}
+
+     for(int n[] : num) {
+      for(int m: n)
+      {
+        System.out.println(m + " ");
+      }
+      System.out.println();
+     }
+
+}
+}
