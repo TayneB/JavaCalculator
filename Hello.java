@@ -1,23 +1,25 @@
-
-public class Hello {
+import java.util.Scanner;
+class Calculator {
   public static void main(String a[]) {
-     int num[][] = new int[4][5];
-
-     for(int i=0;i<4;i++) {
-      for(int j=0;j<5;j++) {
-        num[i][j] = (int)(Math.random()*10);
-        System.out.print(num[i][j] + " ");
-      }
-      System.out.println();
-     }
-
-     for(int n[] : num) {
-      for(int m: n)
-      {
-        System.out.println(m + " ");
-      }
-      System.out.println();
-     }
-
+    try (Scanner Calc = new Scanner(System.in)) {
+      double num1, num2, result;
+      String operator;
+      System.out.println("Enter first number: ");
+      num1 = Calc.nextDouble();
+      System.out.println("Enter operator: ");
+      operator = Calc.next();
+      System.out.println("Enter second number: ");
+      num2 = Calc.nextDouble();
+      result = switch (operator) {
+        case "+" -> num1 + num2;
+        case "-" -> num1 - num2;
+        case "*" -> num1 * num2;
+        case "/" -> num1 / num2;
+        case "%" -> num1 % num2;
+        case "^" -> Math.pow(num1, num2);
+        default -> throw new IllegalArgumentException("Invalid operator!");
+      };
+      System.out.println(result);
+    }
 }
 }
